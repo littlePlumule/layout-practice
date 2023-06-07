@@ -1,0 +1,161 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --primary: #415165;
+  --secondary: #A00404;
+  --third: #96A9C4;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.mt-1 {
+  margin-top: .5rem;
+}
+
+.mb-1 {
+  margin-bottom: .5rem;
+}
+.mb-2 {
+  margin-bottom: 1rem;
+}
+.mb-3 {
+  margin-bottom: 1.5rem;
+}
+.mb-4 {
+  margin-bottom: 2rem;
+}
+.mb-5 {
+  margin-bottom: 2.5rem;
+}
+.mb-6 {
+  margin-bottom: 3rem;
+}
+.mb-9 {
+  margin-bottom: 4.5rem;
+}
+
+.pt-3 {
+  
+}
+
+body {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.title {
+  font-size: 80px;
+  line-height: 94px;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--black);
+}
+
+.subTitle {
+  font-size: 32px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--black);
+}
+
+.subTitle span {
+  color: var(--secondary);
+  padding-left: 1rem;
+  font-size: 24px;
+}
+
+.full-block {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.subTitle-white {
+  border-bottom: 1px solid var(--white);
+  justify-content: center;
+}
+
+.subTitle-white span {
+  color: var(--white);
+}
+
+.skills-container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.skills {  
+  width: 100%;
+  max-width: 996px;
+  margin-right: auto;
+  margin-left: auto;  
+  padding-bottom: 1rem;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.skills-content {
+  width: 100%;
+  max-width: 224px;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+  border-left: 1px solid var(--third);
+}
+
+.skills-content li {
+  margin-bottom: 20px;
+}
+
+.work ul {
+  padding-left: 1.5rem;
+  border-left: 1px solid var(--black);
+  margin-left: 1.5rem;
+}
+
+.work p {
+  font-size: 20px;
+}
+
+footer {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+footer .image-block {
+  display: inline-block;
+}
+
+@media screen and (max-width: 1200px) {
+  .container,
+  .skills {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .subTitle {
+    display: block;
+  }
+
+  .subTitle span {
+    display: block;
+    padding: 0;
+  }
+}
